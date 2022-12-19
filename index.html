@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobokan</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="gameInit()">
+    <div class="main">
+        <h1 class="header">Welcome To Sobokan</h1>
+        <div class="score-main" > Steps Left : <span class="score">100</span> </div>
+        <div class="clock-score-main">FREE STEPS : <span class="clock-score">10</span></div>
+        <button class="button" onclick="gameInit()">Start Over</button>
+    </div>
+    <table>
+        <tbody class="board">
+
+        </tbody>
+    </table>
+    <script src="js/index.js"></script>
+    <script src="js/util.js"></script>
+</body>
+
+</html>
